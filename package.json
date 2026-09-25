@@ -1,0 +1,7 @@
+{
+  "name": "walkfour",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p public && cp index.html styles.css app.js core.js favicon.svg public/"
+  }
+}
