@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WalkFour</title>
+    <meta name="description" content="Four live bars of acoustic walking bass so an unfinished chorus finally has a human low-end figure." />
+    <meta name="theme-color" content="#0e1418" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,560&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">WorkinWithAI · live chairs</p>
+      <h1>WalkFour</h1>
+      <p class="lead">
+        Four live bars of acoustic walking bass so a chorus that already has a
+        vocal and a kit finally has a human figure under it. Not an 808. Not a
+        finger-pocket loop. Not a Rhodes chair.
+      </p>
+      <p class="status" id="status" role="status">Seating live chairs…</p>
+      <h2>Groove</h2>
+      <div class="cards" id="grooves"></div>
+      <p class="note" id="groove-note"></p>
+      <h2>Walk</h2>
+      <div class="cards" id="recipes"></div>
+      <h2>Form · hole 1–4 · walk 5–8</h2>
+      <div class="form" id="form"></div>
+      <div class="strip-head">
+        <p id="strip-label"></p>
+        <p class="note" id="strip-hint"></p>
+      </div>
+      <div class="steps" id="steps"></div>
+      <h2>Punch list</h2>
+      <pre id="punch"></pre>
+      <p class="error" id="error"></p>
+    </main>
+    <div class="dock">
+      <button id="play-hole">Hole loop</button>
+      <button id="play-pass">Full pass</button>
+      <button id="play-walk">Walk only</button>
+      <button class="ghost" id="stop">Stop</button>
+      <button class="ghost" id="copy">Copy punch</button>
+      <button class="ghost" id="bounce">Bounce WAV</button>
+    </div>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
